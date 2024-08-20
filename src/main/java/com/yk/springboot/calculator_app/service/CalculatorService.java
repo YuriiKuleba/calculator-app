@@ -1,10 +1,8 @@
-package com.yk.springboot.calculator_app.config;
-
-import com.yk.springboot.calculator_app.service.MathOperation;
+package com.yk.springboot.calculator_app.service;
 
 import java.util.Scanner;
 
-public class CalculatorConfig {
+public class CalculatorService {
     public void calculateNumbers() {
 
         greeting();
