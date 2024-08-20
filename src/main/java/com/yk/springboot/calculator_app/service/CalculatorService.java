@@ -1,5 +1,7 @@
 package com.yk.springboot.calculator_app.service;
 
+import com.yk.springboot.calculator_app.operations.Operations;
+
 import java.util.Scanner;
 
 public class CalculatorService {
@@ -39,10 +41,10 @@ public class CalculatorService {
         MathOperation operation = new MathOperation(a,b);
 
         return switch (input) {
-            case "1" -> (int) operation.getOperations().get(1);
-            case "2" -> (int) operation.getOperations().get(2);
-            case "3" -> (int) operation.getOperations().get(3);
-            case "4" -> (int) operation.getOperations().get(4);
+            case "1" -> (int) operation.getOperations().get(Operations.ADD);
+            case "2" -> (int) operation.getOperations().get(Operations.SUBTRACT);
+            case "3" -> (int) operation.getOperations().get(Operations.MULTIPLY);
+            case "4" -> (int) operation.getOperations().get(Operations.DIVIDE);
             default -> 0;
         };
     }
