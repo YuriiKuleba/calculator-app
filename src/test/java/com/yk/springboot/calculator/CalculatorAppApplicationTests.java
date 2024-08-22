@@ -1,4 +1,4 @@
-package com.yk.springboot.calculator_app;
+package com.yk.springboot.calculator;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

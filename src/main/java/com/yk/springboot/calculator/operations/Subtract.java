@@ -1,4 +1,4 @@
-package com.yk.springboot.calculator_app.operations;
+package com.yk.springboot.calculator.operations;
 
 public class Subtract implements Operation {
 
